@@ -1,0 +1,12 @@
+{
+  "name": "usco-desktop-store",
+  "version": "0.0.0",
+  "main": "lib/desktop-store.js",
+  "private": true,
+  "dependencies": {
+  },
+  "ignore": [
+    "src/",
+    "specs/"
+  ]
+}

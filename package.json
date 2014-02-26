@@ -1,0 +1,28 @@
+{
+  "name": "usco-desktop-store",
+  "version": "0.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/usco/usco-desktop-store.git"
+  },
+  "main": "./desktop-store",
+  "dependencies": {
+    "composite-detect": "0.0.3",
+    "minilog": "~2.0.2",
+    "q": "~0.9.6"
+  },
+  "devDependencies": {
+    "coffee-script": "",
+    "jasmine-node": "1.10.2",
+    "grunt": "^0.4.2",
+    "grunt-browserify": "^1.3.1",
+    "browserify": "^3.30.2",
+    "coffeeify": "^0.6.0",
+    "grunt-bump": "0.0.13"
+  },
+  "peerDependencies": {},
+  "scripts": {
+    "test": "jasmine-node --coffee specs/"
+  }
+}

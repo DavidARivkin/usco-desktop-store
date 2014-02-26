@@ -1,0 +1,17 @@
+<link rel="import" href="../polymer/polymer.html"> 
+<script src="lib/desktop-store.js" > </script>
+
+<polymer-element name="desktop-store" extends="usco-store-base">
+  <script>
+    Polymer('desktop-store', {
+      //lifecycle callbacks
+      created:function()
+      {
+        this.super();
+        DesktopStore = require( "desktop-store" );
+        this.store = new DesktopStore();
+        this.store.timeout = this.timeout;
+      }
+    });
+  </script>
+</polymer-element>
