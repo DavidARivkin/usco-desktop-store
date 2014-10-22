@@ -66,8 +66,8 @@ class DesktopStore
     onProgress= ( event )->
       if (event.lengthComputable)
         percentComplete = (event.loaded/event.total)*100
-        logger.debug "percent", percentComplete
-        deferred.notify( {"loaded":percentComplete, "total":event.total} )
+        logger.debug "fetching percent", percentComplete
+        deferred.notify( {"fetching":percentComplete, "total":event.total} )
     
     onError= ( error )->
       logger.error "error",event
