@@ -6,7 +6,7 @@
     "type": "git",
     "url": "https://github.com/usco/usco-desktop-store.git"
   },
-  "main": "./desktop-store",
+  "main": "./src/desktop-store",
   "dependencies": {
     "composite-detect": "0.0.3",
     "minilog": "~2.0.2",
